@@ -1,0 +1,120 @@
+/* Fundo geral com gradiente */
+body {
+    background: linear-gradient(to right, #A3C4F3, #D4A5F7); /* Gradiente do azul claro para roxo suave */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho */
+h1 {
+    color: #2C3E50; /* Preto */
+    font-size: 2.8rem;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Parágrafo de instrução */
+p {
+    color: #2980B9; /* Azul escuro */
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+/* Estilo do botão */
+#fetchDataBtn {
+    font-size: 1.2rem;
+    padding: 12px 30px;
+    border-radius: 30px;
+    background-color: #5DADE2; /* Azul claro */
+    color: #FFFFFF;
+    border: none;
+    transition: all 0.3s ease-in-out;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#fetchDataBtn:hover {
+    background-color: #3498DB; /* Azul mais escuro */
+    transform: scale(1.1); /* Animação suave no hover */
+}
+
+/* Container principal */
+.container {
+    max-width: 1000px; /* Aumentando o max-width para acomodar mais conteúdo */
+    margin: 0 auto;
+}
+
+/* Estilo do card */
+.card {
+    background-color: #FFFFFF; /* Branco */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    padding: 20px;
+    transition: box-shadow 0.3s ease-in-out;
+    width: 250px; /* Largura fixa para cada card */
+    margin-right: 20px; /* Espaçamento entre os cards */
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #2980B9; /* Azul escuro */
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #34495E; /* Cinza escuro */
+}
+
+.card-body {
+    padding: 15px;
+}
+
+/* Imagem da raça */
+.card img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+/* Área de resposta da API - Alinhando os cards em linha */
+#apiResponse {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap; /* Permite que os cards se movam para a linha seguinte se não houver espaço */
+    justify-content: space-evenly; /* Espaçamento uniforme entre os cards */
+}
+
+/* Rodapé - Nome do desenvolvedor */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #34495E; /* Cor escura para contraste */
+    color: #fff; /* Texto branco */
+    font-size: 1rem;
+    border-top: 2px solid #2980B9; /* Linha de separação */
+}
+
+footer a {
+    color: #F39C12; /* Cor de destaque para o nome */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo do texto das descrições */
+.card-text {
+    font-size: 1rem;
+    color: #34495E; /* Cinza escuro */
+    margin-top: 10px; /* Adiciona um espaço extra entre a imagem e o texto */
+}
